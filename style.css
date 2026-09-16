@@ -1,0 +1,268 @@
+/* Everything */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #111;
+    color: white;
+}
+
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Main hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+
+/* Hero text */
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* Robot image */
+.hero img {
+    width: 450px;
+    border-radius: 15px;
+}
+
+
+/* Button */
+.button {
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 15px 25px;
+
+    background-color: #111;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+/* General sections */
+.about,
+.competition {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.about {
+    background-color: white;
+}
+
+.competition {
+    background-color: #ddd;
+}
+
+
+/* Footer */
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+
+/* Team page */
+
+.team-page {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.team-page h2 {
+    font-size: 40px;
+}
+
+
+/* Team member grid */
+
+.team-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    margin-top: 50px;
+}
+
+
+/* Individual person */
+
+.person {
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+}
+
+
+/* Person's photo */
+
+.person img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+.person h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+
+.person p {
+    margin-top: 0;
+}
+
+```css
+/* Robot hero */
+
+.robot-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+
+.robot-hero-text {
+    max-width: 550px;
+}
+
+
+.robot-hero h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.robot-hero h3 {
+    font-size: 30px;
+}
+
+
+.robot-hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.robot-hero img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+
+/* General robot sections */
+
+.robot-section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+
+.robot-section h2 {
+    font-size: 40px;
+}
+
+
+/* Robot features */
+
+.robot-features {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+
+.robot-feature {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+}
+
+
+.robot-feature h3 {
+    font-size: 24px;
+}
+
+
+/* Robot gallery */
+
+.robot-gallery {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-top: 40px;
+}
+
+
+.robot-gallery img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+```
