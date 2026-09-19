@@ -108,14 +108,19 @@ footer {
 /* Team page */
 
 .team-page {
+    background-color:rgb(255, 220, 0) ;
     padding: 60px 10%;
     text-align: center;
 }
 
 .team-page h2 {
+    color: rgb(19, 59, 110);
     font-size: 40px;
 }
 
+.team-page p {
+    color: rgb(19, 59, 110);
+}
 
 /* Team member grid */
 
@@ -133,7 +138,7 @@ footer {
 /* Individual person */
 
 .person {
-    background-color: white;
+    background-color: rgb(19, 59, 110);
 
     padding: 20px;
 
@@ -142,6 +147,13 @@ footer {
 
 
 /* Person's photo */
+
+.team-grid img {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
 
 .person img {
     width: 100%;
@@ -154,6 +166,7 @@ footer {
 
 
 .person h3 {
+    color : rgb(255, 242, 0);
     font-size: 24px;
     margin-bottom: 5px;
 }
@@ -161,9 +174,9 @@ footer {
 
 .person p {
     margin-top: 0;
+    color : rgb(255, 242, 0);
 }
 
-```css
 /* Robot hero */
 
 .robot-hero {
@@ -207,6 +220,7 @@ footer {
 /* General robot sections */
 
 .robot-section {
+    background-color:rgb(255, 220, 0);
     padding: 60px 10%;
     text-align: center;
 }
@@ -265,4 +279,137 @@ footer {
 
     border-radius: 10px;
 }
-```
+
+.robot-intro {
+    background-color:rgb(255, 220, 0);
+    text-align: center;
+    padding: 60px 10%;
+}
+
+.robot-intro h2 {
+    color: rgb(19, 59, 110);
+    text-align: center;
+}
+
+.robot-intro h3 {
+    color: rgb(19, 59, 110);
+    text-align: center;
+}
+
+.robot-intro p {
+    color: rgb(19, 59, 110);
+    text-align: center;
+}
+
+.robot-intro img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.competition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 10%;
+    background-color:rgb(255, 220, 0);
+}
+
+.competition-text {
+    flex: 1;
+}
+.competition-card {
+    display: flex;
+    align-items: center;
+}
+
+/* competition section */
+.competition-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.competition-body {
+    background-color:rgb(255, 220, 0) ;
+}
+
+.competition-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    background-color: rgb(19, 59, 110);
+    border-radius: 15px;
+}
+
+.competition-hero h2 {
+    color: rgb(19, 59, 110);
+}
+
+.competition-hero p {
+    color: rgb(19, 59, 110);
+}
+
+.competition-section h2 {
+    color: rgb(19, 59, 110);
+}
+
+.competition-section p {
+    color: rgb(19, 59, 110);
+}
+
+.competition-card p {
+    color : rgb(255, 242, 0);
+}
+
+.competition-card h3 {
+    color : rgb(255, 242, 0);
+}
+
+.competition-hero {
+    background-color:rgb(255, 220, 0) ;
+}
+
+.competition-section {
+    background-color:rgb(255, 220, 0) ;
+}
+
+.competition-hero h2 {
+    text-align: center;
+}
+
+.competition-hero p {
+    text-align: center;
+}
+
+.competition-section h2 {
+    text-align: center;
+}
+
+.competition-section > p {
+    text-align: center;
+}
+
+
+.competition-section-previous-season h2 {
+    text-align: center;
+     color: rgb(19, 59, 110);
+}
+
+.competition-section-previous-season > p {
+    text-align: center;
+     color: rgb(19, 59, 110);
+}
+
+.competition-info {
+    flex: 1;
+}
+
+.competition-card img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
